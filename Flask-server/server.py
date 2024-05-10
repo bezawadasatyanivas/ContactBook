@@ -4,9 +4,6 @@ from flask import request, session, flash, jsonify
 from flask_mysqldb import MySQL
 from datetime import timedelta
 
-import os
-os.chdir(r'C:\Users\satya\OneDrive\Desktop\react\project1')
-
 #create flask object
 
 app=Flask(__name__)

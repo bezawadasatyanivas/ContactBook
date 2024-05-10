@@ -8,28 +8,27 @@ import UserPage from './pages/UserPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 
-import PractisePage from './pages/PractisePage';
 
 const App=()=> {
 
 
-  // return (
-  //   <BrowserRouter>
-  //   <Routes>
-  //     <Route path='/' element={<MainLayout/>}>
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<MainLayout/>}>
 
-  //     <Route index element={<HomePage />} />
-  //     <Route  path='/login' element={<LoginPage />} />
-  //     <Route  path='/register' element={<RegisterPage />} />
+      <Route index element={<HomePage />} />
+      <Route  path='/login' element={<LoginPage />} />
+      <Route  path='/register' element={<RegisterPage />} />
       
-  //     <Route path='/user' element={<UserPage/>} />   
+      <Route path='/user' element={<UserPage/>} />   
 
-  //     </Route>
-  //   </Routes>
+      </Route>
+    </Routes>
     
-  //   </BrowserRouter>
+    </BrowserRouter>
   
-  // );
+  );
 
 
 }
